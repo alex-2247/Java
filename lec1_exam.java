@@ -1,8 +1,12 @@
+/* Здесь многочисленные примеры кода из лекции 1 */
+
+
 // public class program {
 //     public static void main(String[] args) {
 //         System.out.println("Bye, World!!!");
 //     }
 // }
+
 
 // public class program {
 //     public static void main(String[] args) {
@@ -10,6 +14,7 @@
 //         System.out.println(s);
 //     }
 // }
+
 
 // public class Program {
 //     public static void main(String[] args) {
@@ -30,6 +35,7 @@
 //     }
 // }
 
+
 // class Program { // здесь пример на функционал класса-обёртки Integer
 //   public static void main(String[] args) {
 //       System.out.println(Integer.MAX_VALUE); // 2147483647
@@ -37,12 +43,14 @@
 //   }
 // }
 
+
 // public class program { //еще пример на обёрточный класс String
 //     public static void main(String[] args) {
 //         String MyString = "qwerty";
 //         System.out.println(MyString.charAt(2));
 //     }
 // }
+
 
 // public class program { //массивы одномерные
 //     public static void main(String[] args) {
@@ -56,6 +64,7 @@
 //     }
 // }
 
+
 // public class program { // массивы многомерные
 //     public static void main(String[] args) {
 //         int[] arr[] = new int[3][5];
@@ -68,6 +77,7 @@
 //     }
 // }
 
+
 // public class program { // массивы многомерные другой синтаксис
 //     public static void main(String[] args) {
 //         int[][] arr = new int[3][5];
@@ -79,6 +89,7 @@
 //         }
 //     }
 // }
+
 
 // public class program { // преобразования
 //     public static void main(String[] args) {
@@ -98,12 +109,14 @@
 //     }
 //  }
 
+
 // public class program { // такое преобразование не работает, хотя казалось бы...
 //   public static void main(String[] args) {
 //    int[] a = new int[10];
 //    double[] d = a;   // ИЗУЧАЕМ ковариантность и контравариантность
 //   }
 // }
+
 
 // import java.util.Scanner;
 // public class program { // Получение данных из терминала: строки
@@ -115,6 +128,7 @@
 //        iScanner.close();
 //    }
 // }   // Однако, русский текст принимает криво
+
 
 // import java.util.Scanner;
 // public class program { // Некоторые примитивы (численные)
@@ -128,6 +142,7 @@
 //         iScanner.close();
 // }}  // имеет значение формат десятичной точки
 
+
 // import java.util.Scanner;
 // public class program { // Проверка на соответствие получаемого типа
 //    public static void main(String[] args) {
@@ -140,6 +155,7 @@
 //        iScanner.close();
 //    } }
 
+
 // public class program { // конкатенация строк, работает, но неэффеективна
 //     public static void main(String[] args) {
 //         int a = 1, b = 2;
@@ -149,6 +165,7 @@
 //     }
 // }
 
+
 // public class program { // форматированный вывод
 //     public static void main(String[] args) {
 //         int a = 1, b = 2;
@@ -157,6 +174,7 @@
 //         System.out.printf("%d + %d = %d \n", a, b, c);
 //         System.out.println(res);
 //     }}
+
 
 // У переменных существует понятие «область видимости». 
 // Если переменную объявили внутри некоторого блока фигурных скобок { }, 
@@ -337,7 +355,7 @@
 
 // Работа с файлами:        Чтение, вариант ПОСТРОЧНО
 import java.io.*;
-public class program { 
+public class lec1_exam { 
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new FileReader("input.txt"));
         String str;
